@@ -1,0 +1,342 @@
+html {
+  background-color: #ffffb5;
+  background-image: linear-gradient(315deg, #ffffb5 0%, #247ba0 74%);
+  height: 300vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+span {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 5em;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+  color: #ffffff;
+
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.part-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.summary {
+  position: relative;
+  left: 200px;
+  bottom: 150px;
+  font-family: "poppins", sans-serif;
+  font-size: 1.6rem;
+}
+
+.education {
+  position: relative;
+  left: 100px;
+  bottom: 150px;
+  font-family: "poppins", sans-serif;
+  font-size: 1.6rem;
+}
+
+.body {
+  font-size: 1rem;
+  font-family: "poppins", sans-serif;
+}
+
+.first {
+  position: relative;
+  top: -10px;
+  left: -100px;
+  width: 2500px;
+}
+
+.second {
+  position: relative;
+  top: -5px;
+  left: -150px;
+}
+
+.part-two {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+  left: -200px;
+}
+
+.experience {
+  position: relative;
+  bottom: 50px;
+  left: 360px;
+}
+
+.hobbies {
+  position: relative;
+  left: 150px;
+  bottom: 50px;
+  font-size: 1.6rem;
+}
+
+.part-three {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  left: -100px;
+}
+
+.other {
+  position: relative;
+  left: 250px;
+  width: 400px;
+  top: -50px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.goals {
+  width: 900px;
+}
+
+.part-three > .problem {
+  position: relative;
+  top: 50px;
+  left: 20px;
+  width: 800px;
+}
+
+.part-three > .goals {
+  position: relative;
+  top: -50px;
+  left: 350px;
+  text-align: center;
+}
+
+.improve {
+  position: relative;
+  top: 30px;
+  left: -30px;
+  width: 1500px;
+}
+
+.part-four > h2 {
+  font-family: "poppins", sans-serif;
+  font-size: 3rem;
+  position: relative;
+  top: 170px;
+  left: 45px;
+  font-size: 1.6rem;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: "poppins", sans-serif;
+  font-size: 1rem;
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+  left: -140px;
+}
+
+label {
+  display: block;
+}
+
+input[type="text"],
+textarea,
+select {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 0.5rem;
+  font-family: "poppins", sans-serif;
+}
+
+textarea {
+  height: 150px;
+}
+
+input[type="submit"] {
+  background-color: #247ba0;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 30px;
+  font-family: "poppins", sans-serif;
+}
+
+input[type="submit"]:hover {
+  background-color: #1b556e;
+}
+
+option {
+  font-size: 1rem;
+}
+
+a {
+  position: relative;
+  left: 50px;
+  top: 250px;
+  font-size: 2rem;
+  font-family: "poppins", sans-serif;
+  color: whitesmoke;
+}
+
+/* Responsive styles optimized specifically for phones */
+@media (max-width: 1200px) {
+  .part-one {
+    flex-direction: column;
+  }
+
+  h1 {
+    position: relative;
+    left: 600px;
+  }
+
+  .summary {
+    position: relative;
+    top: -30px;
+    left: 600px;
+    font-size: 3rem;
+  }
+
+  .first {
+    position: relative;
+    top: -50px;
+    left: 600px;
+    width: 900px;
+    font-size: 2rem;
+  }
+
+  .education {
+    position: relative;
+    top: -50px;
+    left: 900px;
+    width: 900px;
+    font-size: 3rem;
+  }
+
+  .second {
+    position: relative;
+    top: -50px;
+    left: 600px;
+    width: 900px;
+    font-size: 2rem;
+  }
+
+  .body .part-two {
+    flex-direction: column;
+  }
+
+  .experience {
+    position: relative;
+    top: -150px;
+    left: 1500px;
+    text-align: center;
+  }
+
+  .one > ul {
+    position: relative;
+    top: 50px;
+    left: 850px;
+    width: 900px;
+    display: inline-block;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .hobbies {
+    position: relative;
+    top: 1100px;
+    left: 300px;
+    font-size: 3rem;
+  }
+  .two > ul {
+    position: relative;
+    top: 1220px;
+    left: -50px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .two ul li {
+    margin-bottom: -50px;
+  }
+  .part-three {
+    flex-direction: column;
+  }
+
+  .other {
+    position: relative;
+    top: 650px;
+    left: 600px;
+    font-size: 3rem;
+  }
+  .part-three > .problem {
+    position: relative;
+    top: 600px;
+    left: 450px;
+    white-space: nowrap;
+    margin-bottom: -50px;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .problem ul li {
+    margin-bottom: 50px;
+  }
+
+  .part-three > .goals {
+    position: relative;
+    top: 620px;
+    left: 450px;
+    font-size: 3rem;
+  }
+  .improve {
+    position: relative;
+    top: 600px;
+    left: 450px;
+    width: 900px;
+    display: block;
+    font-size: 2rem;
+  }
+
+  .part-four {
+    flex-direction: column;
+  }
+  .title > h2 {
+    position: relative;
+    top: 700px;
+    left: 600px;
+    font-size: 3rem;
+  }
+  form {
+    position: relative;
+    top: 750px;
+    left: 400px;
+    width: 700px;
+    font-size: 2rem;
+  }
+
+  input[type="submit"] {
+    margin-bottom: 200px;
+  }
+  a {
+    position: relative;
+    left: 400px;
+    top: 650px;
+  }
+}
